@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://l5vkm11cgaib"]
+
+[ext_resource type="Texture2D" uid="uid://bhl4rcp3uh84b" path="res://assets/simple_obstacle.svg" id="1_uln8b"]
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_uln8b")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
