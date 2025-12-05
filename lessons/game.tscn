@@ -14,6 +14,9 @@ texture = ExtResource("1_gkp25")
 
 [node name="Runner" parent="." instance=ExtResource("1_yasw7")]
 position = Vector2(673.48, 725.525)
+max_speed = 600.0
+acceleration = 1200.0
+deceleration = 1080.0
 
 [node name="StaticBody2D" parent="." instance=ExtResource("2_4o7yg")]
 position = Vector2(211, -851.69)
